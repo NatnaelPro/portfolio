@@ -773,6 +773,9 @@ footer p {
         display: none;
     }
     
+    .mobile {
+        display: inline-block;
+    }
 
     .social-media img, .contact .social-media img {
         width: 10%;
