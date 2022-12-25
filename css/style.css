@@ -253,6 +253,10 @@ nav a:hover, nav a:focus {
     z-index: 1;
 }
 
+.desktop {
+    margin-top: 4em;
+}
+
 .mobile {
     display: none;
 }
@@ -625,10 +629,6 @@ footer p {
 }
 
 @media (max-width: 1080px) {
-    body {
-        background-color: red;
-    }
-
     nav ul {
         display: none;
     }
@@ -676,10 +676,6 @@ footer p {
 }
 
 @media (max-width: 900px) {
-    /* body {
-        background-color: blue;
-    } */
-
     /* ABOUT */
     .my-skills-container {
         flex-direction: column;
@@ -706,10 +702,6 @@ footer p {
 }
 
 @media (max-width: 760px) {
-    /* body {
-        background-color: navajowhite;
-    } */
-
     .hero-image img {
         width: 80%;
     }
@@ -742,9 +734,6 @@ footer p {
 }
 
 @media (max-width: 480px) {
-    /* body{
-        background-color: pink;
-    } */
     body {
         text-align: center;
     }
