@@ -485,6 +485,29 @@ svg circle:nth-child(2) {
     background-color: #4E4C4C;
 }
 
+.know-more-btn {
+    padding: 1em;
+    border: 0;
+    background-color: #FBB301;
+    margin-right: .5em;
+    border-radius: 3px;
+}
+
+.know-more-btn:hover {
+    background-color: #d99d05;
+}
+
+.know-more-btn a {
+    color: #fff !important;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* .source-code-link {
+    float: right;
+    margin-right: 3em;
+} */
+
 .work-box img {
     width: 100%;
     display: block;
