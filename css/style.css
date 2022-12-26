@@ -464,7 +464,7 @@ svg circle:nth-child(2) {
 .work-container {
     display: flex;
     justify-content: space-between;
-    margin: 9em 0;
+    margin: 11em 0;
     /* overflow: hidden; */
 }
 
