@@ -369,7 +369,7 @@
                             <img src="images/call-icon.svg" alt="">
                         </div>
                         <div class="address-info">
-                            <p class="gray-text">CALL ME</p>
+                            <p class="gray-text">CALL Me</p>
                             <p>+251922972119</p>
                         </div>
                     </div>
@@ -383,15 +383,15 @@
                 </div>
                 <div class="contact-form">
                     <div class="form">
-                        <form action="https://formsubmit.co/natnaelgirma007@email.com" method="POST">
+                        <form method="post" data-netlify="true">
                             <div class="name-email">
                                 <input type="text" name="name" placeholder="YOUR NAME">
                                 <input type="email" name="email" placeholder="YOUR EMAIL">
                             </div>
-                            <input type="hidden" name="_next" value="natnaelpro.github.io/portfolio/thankyou.html">
-                            <input type="text" placeholder="YOUR SUBJECT">
-                            <textarea name="message" id="" cols="20" rows="10" placeholder="YOUR MESSAGE"></textarea>
+                            <input type="text" id="subject" placeholder="YOUR SUBJECT">
+                            <textarea name="message" name="message" cols="20" rows="10" placeholder="YOUR MESSAGE"></textarea>
                             <!-- <button class="send-btn">SEND MESSAGE</button> -->
+                            <div data-netlify-recaptcha="true"></div>
                             <div class="download-btn-container">
                                 <button class="download-btn" type="submit">SEND MESSAGE</button>
                                 <img src="images/send-icon.svg" alt="">
